@@ -27,8 +27,10 @@ jobs:
           mkdir -p dist
           ls -al dist
           ls -al codelabs
-          claat export codelabs/first-codelab.md
+          claat export -o dist codelabs/first-codelab.md
+          echo pwd
           ls -al
+          echo dist
           ls dist # Check output
 
       - name: Deploy to GitHub Pages
