@@ -1,0 +1,22 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-10-17T21:39:42Z",
+  "id": "my-first-codelab",
+  "duration": 0,
+  "title": "Introduction",
+  "authors": "Me!",
+  "summary": "My First Codelab",
+  "source": "codelabs/first-codelab.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "foo"
+  ],
+  "tags": [],
+  "url": "my-first-codelab"
+}
