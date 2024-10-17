@@ -20,7 +20,7 @@ jobs:
           sudo mv claat-linux-amd64 /usr/local/bin/claat
 
       - name: Verify claat installation
-        run: claat -h
+        run: claat version
 
       - name: Build codelabs
         run: |
