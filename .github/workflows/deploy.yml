@@ -25,7 +25,7 @@ jobs:
       - name: Build codelabs
         run: |
           mkdir -p dist
-          claat export codelabs/first-codelab.md --output dist/
+          claat export codelabs/first-codelab.md -o dist
           ls dist # Check output
 
       - name: Deploy to GitHub Pages
