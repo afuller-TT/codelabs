@@ -25,6 +25,8 @@ jobs:
       - name: Build codelabs
         run: |
           mkdir -p dist
+          ls -al dist
+          ls -al codelabs
           claat export codelabs/first-codelab.md -o dist
           ls dist # Check output
 
