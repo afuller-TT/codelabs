@@ -1,0 +1,3 @@
+[submodule "codelab-components"]
+	path = codelab-components
+	url = https://github.com/googlecodelabs/codelab-components.git
