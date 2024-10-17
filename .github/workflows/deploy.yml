@@ -28,6 +28,7 @@ jobs:
           ls -al dist
           ls -al codelabs
           claat export codelabs/first-codelab.md
+          ls -al
           ls dist # Check output
 
       - name: Deploy to GitHub Pages
